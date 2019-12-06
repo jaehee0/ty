@@ -1,0 +1,275 @@
+<!DOCTYPE html><!-- 21861099_이재희 -->
+<html>
+<title>Full Background Cover</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+ a { color: black; text-decoration: none;}
+ a:hover {color: #b5dddc; text-decoration: none; }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: '돋음';
+    font-size: 14px;
+    color: #444444;
+    background-color: white;
+  }
+  li {
+    list-style-type: none;
+  }
+
+  .clear {
+    clear: both;
+  }
+  .img{
+    position: relative;
+    background-image: url(pp.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.img-cover{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.4);
+   z-index:1;
+}
+.img .content{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     font-size:5rem;
+     color: white;
+     z-index: 2;
+     text-align: center;
+}
+
+  header {
+    width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+  }
+  #logo {
+    float: left;
+    margin: 10px 0 0 0px;
+    /* border: solid 1px red; */
+  }
+  #menus {
+    float: right;
+    /* border: solid 1px red;*/
+  }
+  #top_menu {
+    text-align: right;
+    margin-top: 30px;
+    /* border: solid 1px red; */
+  }
+  #main_menu {
+    margin-top: 40px;
+    font-family: '맑은 고딕';
+    font-size: 14px;
+    color: black;
+    /* border: solid 1px red; */
+  }
+  #main_menu li {
+    display: inline;
+    margin-left: 130px;
+  }
+  #main_menu a{
+    text-decoration: none;
+    color: black;
+  }
+  #main_img {
+    width: 100%;
+    height: 900px;
+    background-image: url('pp.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 20px;
+    /* border: solid 1px red;*/
+  }
+  #contents {
+    width: 1140px;
+    /*height: 300px;*/
+    margin: 0 auto;
+    /* border: solid 1px red; */
+  }
+  #sub_menu {
+    width: 150px;
+    float: left;
+    top:50%;
+     left:3%;
+    margin-top: 25px;
+    position: absolute;
+     font-size:1rem;
+     color: white;
+     z-index: 1;
+     text-align: left;
+    /* border: solid 1px red; */
+  }
+  #sub_menu h3 {
+    font-size: 18px;
+    color: #b5dddc;
+    padding: 12px;
+    background-color: white;
+  }
+  #sub_menu li {
+    padding: 10px;
+    border-bottom: dotted 1px #cccccc;
+  }
+  #main_contents {
+    width: 880px;
+    float: right;
+    margin-top: 25px;
+    top:100%;
+     left:50%;
+    margin-top: 25px;
+    position: absolute;
+     font-size:1rem;
+     color: white;
+     z-index: 1;
+     text-align: left;
+    /* border: solid 1px red; */
+  }
+  #main_contents h3 {
+    font-size: 22px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #cccccc;
+  }
+  #main_contents p {
+    margin-top: 30px;
+    line-height: 180%;
+  }
+  #main_contents #figure {
+    margin-top: 30px;
+    text-align: center;
+  }
+  #main_contents li{
+    padding: 5px;
+  }
+  footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    position: absolute;
+     font-family: '맑은 고딕';
+     font-size: 14px;
+     color: black;
+     z-index: 1;
+     text-align: left;
+    background-color: white;
+
+    /* border: solid 1px red;*/
+  }
+  #footer_box {
+    width: 1140px;
+    height: 200px;
+    margin: 0 auto;
+    /* border: solid 1px green; */
+  }
+  #footer_logo {
+    float: left;
+    margin: 50px 0 0 10px;
+    /* border: solid 1px red; */
+  }
+  #address {
+    float: right;
+    margin: 50px 100px 0 0;
+    color: black;
+    /* border: solid 1px red; */
+  }
+  #address_1{
+    float: right;
+    margin: 50px 300px 0 0;
+    color: black;
+    /* border: solid 1px red; */
+  }
+
+
+</style>
+<body>
+
+
+
+
+<header>
+  <div id='logo'>
+    <a href='r.html'><img src='logo11.png'></a>
+    </div>
+
+    <nav id='menu'>
+      <div id='top_menu'>
+      로그인 | 회원가입 | 공지사항
+      </div>
+
+      <ul id='main_menu'>
+        <li><a href="r1.html" style='color: #b5dddc'>SKATEBOARDS</a></li>
+        <li><a href="g1.html"> GALLERY</a></li>
+        <li><a href="g2.html"> VIDEOS</a></li>
+        <li><a href="g3.html"> COLLABORATIONS</a></li>
+
+        </ul>
+        </nav>
+        </header>
+
+
+  <section id='main_img'>
+    <div class="img">
+            <div class="content">
+                <h1>Hello!</h1>
+                <h3>MEET OVERFLOW'S NEW SKATEBOARDS.</h3>
+            </div>
+            <div class="img-cover"></div>
+        </div>
+<div class="bgimg"></div>
+
+    </section>
+
+  <section id='contents'>
+
+    <nav id='sub_menu'>
+      <h3><a href="r1.html"style='color: #b5dddc'>OVERFLOW</a></h3>
+      <ul>
+        <li><a href="r1.html"style='color: white;'>Supreme</a></li>
+        <li><a href="r1.html"style='color: white;'>Palace</a></li>
+        <li><a href="r1.html"style='color: white;'>DGK</a></li>
+        </ul>
+      </nav>
+
+
+        </section>
+        <div class='clear'></div><!--float 속성 해제 -->
+
+        <footer>
+         <div id='footer_box'>
+           <div id="footer_logo">
+             <img src='qq.png'>
+             </div>
+             <ul id='address'>
+               <li>FOLLOW US</li><br><br>
+                 <li><a href='https://www.facebook.com/DGK/'>Facebook</a></li>
+                 <li><a href='https://www.instagram.com/dgk/'>Instagram</a></li>
+                 </ul>
+                 <ul id='address_1'>
+                   <li>GET IN TOUCH</li><br><br>
+                     <li><a href='https://www.google.com/intl/ko/gmail/about/'>+08 125 423</a></li>
+                     <li><a href='https://www.google.com/intl/ko/gmail/about/'>info@gmail.com</a></li>
+
+
+                     </ul>
+                 </div>
+          </footer>
+</body>
+</html>
